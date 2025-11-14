@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos de la Inteligencia Artificial</title>
+
+    <!-- Se incluye el archivo CSS para estilos -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- HEADER: Encabezado principal del sitio -->
+    <header>
+        <h1>Fundamentos de la Inteligencia Artificial (IA)</h1>
+        <p>
+            Bienvenido/a a esta introducción simple sobre la IA. Este contenido está diseñado para 
+            principiantes y curiosos que desean entender los conceptos básicos de esta tecnología 
+            que está transformando el mundo.
+        </p>
+    </header>
+
+    <!-- NAV: Barra de navegación accesible -->
+    <nav aria-label="Navegación principal">
+        <ul>
+            <li><a href="#que-es">¿Qué es la IA?</a></li>
+            <li><a href="#aplicaciones">Aplicaciones</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- MAIN: Contenido principal del sitio -->
+    <main>
+
+        <!-- SECTION: Definición de IA -->
+        <section id="que-es">
+            <h2>¿Qué es Realmente la IA?</h2>
+
+            <article>
+                <h3>Definición Simple</h3>
+                <p>
+                    La Inteligencia Artificial es un campo de la informática que se enfoca en crear sistemas 
+                    capaces de realizar tareas que normalmente requieren inteligencia humana.
+                </p>
+            </article>
+
+            <!-- Imagen con ALT descriptivo para accesibilidad -->
+            <img 
+                src="assets/ia-cerebro.jpg" 
+                alt="Ilustración de un cerebro digital con conexiones que representan el funcionamiento de la inteligencia artificial">
+        </section>
+
+        <hr>
+
+        <!-- SECTION: Aplicaciones -->
+        <section id="aplicaciones">
+            <h2>Aplicaciones Clave de la IA</h2>
+            <p>La IA está presente en nuestra vida diaria en múltiples áreas como:</p>
+
+            <ul>
+                <li>Asistentes virtuales como Siri, Alexa o Google Assistant.</li>
+                <li>Recomendaciones en plataformas como Netflix o Amazon.</li>
+                <li>Traducción automática.</li>
+                <li>Diagnóstico médico por imágenes.</li>
+            </ul>
+        </section>
+
+        <hr>
+
+        <!-- ASIDE: Información complementaria -->
+        <aside>
+            <h3>Dato curioso</h3>
+            <p>
+                El término "Inteligencia Artificial" fue acuñado por John McCarthy en 1956.
+            </p>
+        </aside>
+
+        <!-- SECTION: Formulario de contacto -->
+        <section id="contacto">
+            <h2>Mantente al Día</h2>
+
+            <form action="#" method="POST">
+
+                <!-- LABEL correctamente asociado para accesibilidad -->
+                <label for="email-suscripcion">Introduce tu correo electrónico:</label>
+                <input 
+                    type="email" 
+                    id="email-suscripcion" 
+                    name="email" 
+                    required 
+                    placeholder="tu@ejemplo.com">
+
+                <button type="submit" aria-label="Enviar formulario de suscripción">
+                    Suscribirme
+                </button>
+            </form>
+
+            <p>
+                También puedes <a href="https://es.wikipedia.org/wiki/Inteligencia_artificial">
+                visitar la Wikipedia</a> para más detalles.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>&copy; 2025 Fundamentos de IA | Página educativa demostrativa.</p>
+    </footer>
+
+</body>
+</html>
