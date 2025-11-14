@@ -1,5 +1,5 @@
 /* Fondo general */
-body {
+body { 
     background-color: #749bbd;
     font-family: Arial, sans-serif;
     margin: 0;
